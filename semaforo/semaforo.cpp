@@ -27,7 +27,6 @@ void forbiddenSignal()
 
 void setup()
 {
-  Serial.begin(9600);
   pinMode(GREEN_PIN, OUTPUT);
   pinMode(YELLOW_PIN, OUTPUT);
   pinMode(RED_PIN, OUTPUT);
